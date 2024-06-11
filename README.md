@@ -19,7 +19,7 @@ Welcome to the News App project! This application fetches news articles from the
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AnoushahWasif/News-App.git
    ```
 
 2. Install dependencies:
