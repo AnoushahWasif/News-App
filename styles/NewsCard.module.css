@@ -1,24 +1,57 @@
-/* styles/NewsCard.module.css */ 
+/* styles/NewsCard.module.css */
+
 .card {
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
   }
   
-  .card h2 {
-    margin: 0 0 0.5rem;
+  .imageContainer {
+    height: 200px;
+    overflow: hidden;
   }
   
-  .card p {
-    margin: 0 0 1rem;
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   
-  .card a {
-    color: #0070f3;
+  .content {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .source,
+  .author,
+  .publishedAt {
+    color: #888;
+  }
+  
+  .readMore {
+    color: #007bff;
     text-decoration: none;
   }
   
-  .card a:hover {
+  .readMore:hover {
     text-decoration: underline;
   }
+  
