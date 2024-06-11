@@ -1,0 +1,19 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore build output
+/.next/
+/out/
+
+# Ignore environment variables file
+.env.local
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn lock file
+yarn.lock

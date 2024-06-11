@@ -1,0 +1,24 @@
+/* styles/NewsCard.module.css */ 
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card h2 {
+    margin: 0 0 0.5rem;
+  }
+  
+  .card p {
+    margin: 0 0 1rem;
+  }
+  
+  .card a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }

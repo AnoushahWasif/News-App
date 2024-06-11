@@ -1,0 +1,19 @@
+/* styles/Layout.module.css */ 
+.header {
+    background-color: #20232a;
+    padding: 1rem;
+    color: #61dafb;
+    text-align: center;
+  }
+  
+  .main {
+    padding: 1rem;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #20232a;
+    color: white;
+  }
+  
